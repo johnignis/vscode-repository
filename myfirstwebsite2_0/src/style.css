@@ -1,0 +1,160 @@
+.container{
+  width:800px;
+  margin:0 auto;
+}
+.wrapper{
+  width:100%; 
+ // margin: 0 auto;
+}
+nav{
+  background-color:#333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+ // position:fixed;
+}
+nav ul{
+  list-style-type:none;
+  padding:0;
+}
+nav a{
+  text-decoration: none;
+  text-align:center;
+  color:#fff;
+  display:block;
+  //padding: 0 10px;
+}
+nav a:hover{
+  background-color:#555;
+}
+
+@media screen and (min-width:768px){
+  nav ul{
+    display:flex;
+    justify-content:space-around;;
+  }
+  nav li{
+   // flex:1 1 0;
+  }
+}
+
+header{  
+  box-sizing: border-box;
+  height: 600px;
+ // width:400px;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center ; 
+ 
+/*   font-family: 'Abril Fatface', cursive; */
+/*   color:#323232; */
+/*   text-align: center; */
+  position:relative;
+
+}
+
+#bottom1title{
+ position:absolute;
+ bottom: 35%;
+ left: 18%;
+ font-size:40px;
+ font-weight:1000;
+ color:#222222; 
+}
+
+#bottom2title{
+ position:absolute;
+ bottom: 2%;
+ left: 18%;
+ font-size:80px;
+ font-weight:1000;
+ color:#222222;
+}
+
+.content{
+  /*   margin: 0 19%; */
+}
+
+.blackbackground{
+  background-color:#444444;
+  color:white;
+  padding:50px 30px 50px 50px;
+  
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  position:relative;
+  
+}
+
+.blockquote::before {
+  content: "“";
+  /* then the styling */
+  position:absolute;
+  top:-30px;
+  left:0px;
+  font-size: 140px;
+  font-family: 'Abril Fatface', cursive;
+}
+.title1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 150%;
+  color:#323232;
+  text-transform: uppercase;
+  
+ // margin-bottom:50px;
+ font-weight: bold;
+}
+.title2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color:#323232;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.withoutmarginbottom{
+  //margin-bottom:0px;
+}
+.title3{
+  font-family: 'Merriweather', serif;
+  color:#323232;
+}
+/*
+.smallerwidth{
+  margin: 0 5%;
+}
+
+hr {
+  border: 2px solid black;
+  margin-bottom:60px;
+}
+*/
+ul{
+  margin-top:30px;
+  margin-bottom:60px;
+  line-height: 1.7em;
+}
+
+#intro{
+  line-height: 2em;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-top:50px;
+  color:#323232;
+}
+section{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.part1{
+  width:40%;
+}
+.part2{
+  padding-top:60px;
+  padding-left:30px;
+  padding-right:30px;
+  width:52%;
+}
+
